@@ -82,12 +82,12 @@ As you build your server, visit http://localhost:8080 (or whatever port number y
 **Server Application Technical Requirements**
 
 - [x] In `index.js`, the `express()` function is used to create an `app`
-- [ ] There are 4 controller functions
-  - [ ] Two controllers send an HTML response (either raw HTML or an HTML file)
+- [x] There are 4 controller functions
+  - [] Two controllers send an HTML response (either raw HTML or an HTML file)
   - [x] Two controllers send a data response
   - [x] One of the controllers uses query parameters in some way (`req.query.parameterName`)
-- [ ] There are 4 GET endpoints
-  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+- [x] There are 4 GET endpoints
+  - [x] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
   - [x] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
 - [x] The `app` listens on an available port (I recommend `8080`)
 
@@ -101,7 +101,7 @@ Here is an example of a deployed server: https://github.com/benspector-mls/first
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section.
+- [x] Your GitHub page has a link to the deployed server in the About section.
 
 ## Submit
 

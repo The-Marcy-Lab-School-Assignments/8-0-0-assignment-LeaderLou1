@@ -29,12 +29,9 @@ const serveAbout = (req, res, next) => {
   res.send("<h1>About</h1>");
 };
 
-/* FEEDBACK: you need the "/" before "api" to make these
-endpoints work. 
 
-Test out your program by running this file (node index.js) and
-then visit http://localhost:8080/api/wahgwan 
-*/
+
+
 //route
 app.get("/api/wahgwan", serveWahgwan);
 app.get("/", serveIndex);
