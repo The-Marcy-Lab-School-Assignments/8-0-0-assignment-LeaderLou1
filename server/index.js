@@ -29,9 +29,6 @@ const serveAbout = (req, res, next) => {
   res.send("<h1>About</h1>");
 };
 
-
-
-
 //route
 app.get("/api/wahgwan", serveWahgwan);
 app.get("/", serveIndex);
